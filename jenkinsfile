@@ -15,5 +15,12 @@ pipeline{
       }
     }
     
+    stage("Deliver code")
+    {
+      steps{
+        echo "Inside Delivery stage "
+      }
+    }
+    
   }
 }
