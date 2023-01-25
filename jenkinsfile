@@ -1,0 +1,19 @@
+pipeline{
+  agent any
+  stages{
+    stage("Build code")
+    {
+      steps{
+        echo "Inside build "
+      }
+      
+    }
+    stage("Test code")
+    {
+      steps{
+        echo "Inside Test "
+      }
+    }
+    
+  }
+}
